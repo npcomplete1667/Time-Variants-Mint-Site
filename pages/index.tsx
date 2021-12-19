@@ -41,7 +41,7 @@ export default function Home() {
     const [mintCount, setMintCount] = useState(1);
 
     const myMin = 1
-    const myMax = 5
+    const myMax = 10
 
     return (
       <>
@@ -83,6 +83,9 @@ export default function Home() {
       <div className="background-image">
         <Toaster />
         <div className="navBar">
+          <div className="nftHeading tab">
+            <p>Remaining {nftsData.itemsRemaining}</p>
+          </div>
           <p className="mr-auto text-sm">
             <span className="font-bold">Available/Minted/Total:</span>{" "}
             {nftsData.itemsRemaining}/{nftsData.itemsRedeemed}/
