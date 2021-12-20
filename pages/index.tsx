@@ -114,7 +114,7 @@ export default function Home() {
                     <div>
                                 <div className="tipsFont">
                         <p>Tips:</p>
-                        <p className="tab">1. Use the - and + signs to adjust how many SolTraps you want to mint</p>
+                        <p className="tab">1. Use the - and + signs to adjust how many Time Variants you want to mint</p>
                         <p className="tab">2. Once you click approve and see "loading", refresh the page to mint again.  Network issues may cause it to get stuck, refreshing will resolve this issue.</p>
                       </div>
                       <div className="mintButton">
